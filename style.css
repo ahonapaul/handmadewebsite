@@ -1,0 +1,91 @@
+
+@font-face {
+    font-family: pixelfont;
+    src: url(pixelfont.ttf);
+}
+
+body{
+    background-color:antiquewhite;
+    font-family: pixelfont; 
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+}
+
+button{
+    background-color:black;
+    color:antiquewhite;
+    font-family:pixelfont;
+    border:5px;
+    text-align:center;
+    cursor:pointer;
+    font-size:40px;
+}
+
+#button{
+    background-color:black;
+    color:antiquewhite;
+    font-family:pixelfont;
+    border:5px;
+    text-align:center;
+    cursor:pointer;
+    font-size:40px;
+}
+
+h2{
+    text-align: center;
+    margin: 0px;
+}
+
+marquee{
+    color:brown;
+    font-size: 20px;
+}
+
+#page1{
+    width:400px;
+    height:250px;
+    margin:50px;
+    align-items:center;
+    color:black;
+}
+
+#page1text{
+    background-color: black;
+    color:antiquewhite;
+}
+
+#page1button{
+    color:brown;
+    text-align:center;
+    font-size: 500px;
+}
+
+
+#openPage{
+    width:700px;
+    height:550px;
+    margin:50px;
+    align-items:center;
+    color:black;
+}
+
+#newbutton{
+    background-color:black;
+    color:antiquewhite;
+    font-family:pixelfont;
+    border:50px;
+    text-align:center;
+    cursor:pointer;
+    font-size:40px;
+}
+
+#lamp{
+    cursor: pointer;
+}
+
+img{
+    position: center;
+}

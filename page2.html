@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>what is this</title>
+</head>
+<body>
+    <img id="lamp" src="lampostunlit.png" onclick="changeImage" height="500" width="1200">
+
+    <script>
+        function changeImage() {
+          var image = document.getElementById("lamp");
+          if (image.src.match("lampostunlit.png")) {
+            image.src = "lampostlit.png";
+
+          } else {
+            image.src = "lampostunlit.png";
+          }
+        }
+        </script>
+
+    <a href="page3.html">pick up piece</a>
+</body>
+</html>
